@@ -1,2 +1,7 @@
-# kde-neon-adjustment
-kde-neon-adjustment
+
+
+# Home
+
+| Link | GitHub |
+| ---- | ------ |
+| [Kde Neon / Adjustment](https://samwhelp.github.io/kde-neon-adjustment/) | [GitHub](https://github.com/samwhelp/kde-neon-adjustment) |
