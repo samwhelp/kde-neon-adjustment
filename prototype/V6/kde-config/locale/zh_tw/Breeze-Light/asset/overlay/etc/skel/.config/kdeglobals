@@ -9,7 +9,7 @@ smallestReadableFont=Sans Serif,10,-1,5,50,0,0,0,0,0
 toolBarFont=Sans Serif,11,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=breeze-dark
+Theme=breeze
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
