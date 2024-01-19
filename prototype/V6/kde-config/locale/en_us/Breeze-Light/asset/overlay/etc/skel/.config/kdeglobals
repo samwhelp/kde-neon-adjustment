@@ -1,6 +1,6 @@
 [General]
 AllowKDEAppsToRememberWindowPositions=false
-ColorScheme=BreezeDark
+ColorScheme=BreezeLight
 XftSubPixel=none
 fixed=Monospace,12,-1,5,50,0,0,0,0,0
 font=Sans Serif,12,-1,5,50,0,0,0,0,0
@@ -12,7 +12,7 @@ toolBarFont=Sans Serif,11,-1,5,50,0,0,0,0,0
 Theme=breeze
 
 [KDE]
-LookAndFeelPackage=org.kde.breezedark.desktop
+LookAndFeelPackage=org.kde.breeze.desktop
 ShowDeleteCommand=true
 SingleClick=false
 
