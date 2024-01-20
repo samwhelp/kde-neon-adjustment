@@ -7,6 +7,29 @@ set -e
 ### Head: kde
 ##
 
+kde_config_run_pre () {
+
+	#systemctl --user stop plasma-kactivitymanagerd.service
+
+	#rm ~/.local/share/kactivitymanagerd/ -rf
+
+
+	#systemctl --user stop plasma-kglobalaccel.service
+
+	systemctl --user stop plasma-plasmashell.service
+
+}
+
+kde_config_run_post () {
+
+	#systemctl --user start plasma-kglobalaccel.service
+
+	systemctl --user start plasma-plasmashell.service
+
+	#systemctl --user start plasma-kactivitymanagerd.service
+
+}
+
 kde_config_install () {
 
 	echo
@@ -49,7 +72,11 @@ kde_config_install_by_dir () {
 
 main_config_install () {
 
+	kde_config_run_pre
+
 	kde_config_install
+
+	kde_config_run_post
 
 }
 
