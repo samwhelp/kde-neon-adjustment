@@ -1,6 +1,6 @@
 
 
-# Kde
+# Kde Config
 
 
 
