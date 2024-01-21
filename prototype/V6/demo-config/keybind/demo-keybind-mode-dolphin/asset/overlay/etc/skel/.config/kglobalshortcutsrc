@@ -6,12 +6,6 @@ switch-to-activity-9d8ae070-8a25-4665-b7fc-5c80a2a1336e=none,none,Switch to acti
 Switch to Next Keyboard Layout=Meta+Alt+K,none,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
-[firefox.desktop]
-_k_friendly_name=Firefox
-_launch=Alt+Shift+B,none,Firefox
-new-private-window=Ctrl+Alt+B,none,New Private Window
-new-window=none,none,New Window
-
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
@@ -196,46 +190,16 @@ view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+=,Meta++,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
-[org.kde.dolphin.desktop]
-_k_friendly_name=Dolphin
-_launch=Alt+Shift+F,Meta+E,Dolphin
-
-[org.kde.kate.desktop]
-_k_friendly_name=Kate
-_launch=Alt+Shift+E,none,Kate
-
-[org.kde.konsole.desktop]
-NewTab=none,none,Open a New Tab
-NewWindow=none,none,Open a New Window
-_k_friendly_name=Konsole
-_launch=Alt+Return\tAlt+Shift+A\tAlt+Shift+T,Ctrl+Alt+T,Konsole
-
-[org.kde.krunner.desktop]
-RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
-_k_friendly_name=KRunner
-_launch=Alt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
-
-[org.kde.kwrite.desktop]
-_k_friendly_name=KWrite
-_launch=Ctrl+Alt+E,none,KWrite
-
-[org.kde.plasma.emojier.desktop]
-_k_friendly_name=Emoji Selector
-_launch=Meta+.,Meta+.,Emoji Selector
-
-[org.kde.spectacle.desktop]
-ActiveWindowScreenShot=Meta+Print,Meta+Print,Capture Active Window
-CurrentMonitorScreenShot=none,none,Capture Current Monitor
-FullScreenScreenShot=Shift+Print,Shift+Print,Capture Entire Desktop
-OpenWithoutScreenshot=none,none,Launch without taking a screenshot
-RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,Capture Rectangular Region
-WindowUnderCursorScreenShot=Meta+Ctrl+Print,Meta+Ctrl+Print,Capture Window Under Cursor
-_k_friendly_name=Spectacle
-_launch=Print,Print,Spectacle
-
-[org.kde.yakuake.desktop]
-_k_friendly_name=Yakuake
-_launch=Meta+F2\tAlt+Shift+Y,none,Yakuake
+[mediacontrol]
+_k_friendly_name=Media Controller
+mediavolumedown=,,Media volume down
+mediavolumeup=,,Media volume up
+nextmedia=Media Next,Media Next,Media playback next
+pausemedia=Media Pause,Media Pause,Pause media playback
+playmedia=,,Play media playback
+playpausemedia=Media Play,Media Play,Play/Pause media playback
+previousmedia=Media Previous,Media Previous,Media playback previous
+stopmedia=Media Stop,Media Stop,Stop media playback
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
@@ -250,12 +214,8 @@ Toggle Keyboard Backlight=Keyboard Light On/Off\tAlt+|,Keyboard Light On/Off,Tog
 Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
-[pcmanfm-qt.desktop]
-_k_friendly_name=PCManFM-Qt File Manager
-_launch=Alt+Shift+G,none,PCManFM-Qt File Manager
-
 [plasmashell]
-_k_friendly_name=Plasma
+_k_friendly_name=Plasma Shell
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -285,23 +245,77 @@ switch to next activity=Alt+Tab,none,Switch to Next Activity
 switch to previous activity=Alt+`,none,Switch to Previous Activity
 toggle do not disturb=none,none,Toggle do not disturb
 
-[rofi-show-drun.desktop]
+[services][firefox.desktop]
+_k_friendly_name=Firefox
+_launch=Alt+Shift+B,none,Firefox
+new-private-window=Ctrl+Alt+B,none,New Private Window
+new-window=none,none,New Window
+
+[services][org.kde.dolphin.desktop]
+_k_friendly_name=Dolphin
+_launch=Alt+Shift+F,Meta+E,Dolphin
+
+[services][org.kde.kate.desktop]
+_k_friendly_name=Kate
+_launch=Alt+Shift+E,none,Kate
+
+[services][org.kde.konsole.desktop]
+NewTab=none,none,Open a New Tab
+NewWindow=none,none,Open a New Window
+_k_friendly_name=Konsole
+_launch=Alt+Return\tAlt+Shift+A\tAlt+Shift+T,Ctrl+Alt+T,Konsole
+
+[services][org.kde.krunner.desktop]
+RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
+_k_friendly_name=KRunner
+_launch=Alt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
+
+[services][org.kde.kwrite.desktop]
+_k_friendly_name=KWrite
+_launch=Ctrl+Alt+E,none,KWrite
+
+[services][org.kde.plasma.emojier.desktop]
+_k_friendly_name=Emoji Selector
+_launch=Meta+.,Meta+.,Emoji Selector
+
+[services][org.kde.plasma-systemmonitor.desktop]
+_launch=
+
+[services][org.kde.spectacle.desktop]
+ActiveWindowScreenShot=Meta+Print,Meta+Print,Capture Active Window
+CurrentMonitorScreenShot=none,none,Capture Current Monitor
+FullScreenScreenShot=Shift+Print,Shift+Print,Capture Entire Desktop
+OpenWithoutScreenshot=none,none,Launch without taking a screenshot
+RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,Capture Rectangular Region
+WindowUnderCursorScreenShot=Meta+Ctrl+Print,Meta+Ctrl+Print,Capture Window Under Cursor
+_k_friendly_name=Spectacle
+_launch=Print,Print,Spectacle
+
+[services][org.kde.yakuake.desktop]
+_k_friendly_name=Yakuake
+_launch=Meta+F2\tAlt+Shift+Y,none,Yakuake
+
+[services][pcmanfm-qt.desktop]
+_k_friendly_name=PCManFM-Qt File Manager
+_launch=Alt+Shift+G,none,PCManFM-Qt File Manager
+
+[services][rofi-show-drun.desktop]
 _k_friendly_name=Rofi Show Drun
 _launch=Alt+Shift+D,none,Rofi Show Drun
 
-[rofi-show-run.desktop]
+[services][rofi-show-run.desktop]
 _k_friendly_name=Rofi Show Run
 _launch=Alt+Shift+R,none,Rofi Show Run
 
-[rofi-show-window.desktop]
+[services][rofi-show-window.desktop]
 _k_friendly_name=Rofi Show Window
 _launch=Alt+Shift+W,none,Rofi Show Window
 
-[sakura.desktop]
+[services][sakura.desktop]
 _k_friendly_name=Sakura
 _launch=Ctrl+Alt+A\tCtrl+Alt+T,none,Sakura
 
-[systemsettings.desktop]
+[services][systemsettings.desktop]
 _k_friendly_name=System Settings
 _launch=Tools\tAlt+Shift+S,Tools,System Settings
 kcm-kscreen=Ctrl+Alt+S,none,Display Configuration
