@@ -9,7 +9,7 @@ set -e
 
 kde_config_run_pre () {
 
-	kde_service_stop
+	#kde_service_stop
 
 
 	return 0
@@ -18,7 +18,7 @@ kde_config_run_pre () {
 
 kde_config_run_post () {
 
-	kde_service_start
+	#kde_service_start
 
 
 	return 0
