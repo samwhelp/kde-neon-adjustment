@@ -1,11 +1,11 @@
 ---
-title: 連結
+title: Link
 nav_order: 9000
 has_children: true
 ---
 
 
-# 連結
+# Link
 
 
 ## KDE neon
@@ -13,6 +13,8 @@ has_children: true
 | Link |
 | ---- |
 | [KDE neon](https://neon.kde.org/) |
+
+
 
 
 ## Just the Docs
