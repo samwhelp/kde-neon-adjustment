@@ -22,16 +22,15 @@
 ## Adjustment
 
 
-
-### V6
+### KDE Plasma 6
 
 | en_us    | zh_tw    |
 | -------- | -------- |
-| [Breeze-Dark](https://github.com/samwhelp/kde-neon-adjustment/tree/main/prototype/V6/kde-config/locale/en_us/Breeze-Dark) | [Breeze-Dark](https://github.com/samwhelp/kde-neon-adjustment/tree/main/prototype/V6/kde-config/locale/zh_tw/Breeze-Dark) |
-| [Breeze-Light](https://github.com/samwhelp/kde-neon-adjustment/tree/main/prototype/V6/kde-config/locale/en_us/Breeze-Light) | [Breeze-Light](https://github.com/samwhelp/kde-neon-adjustment/tree/main/prototype/V6/kde-config/locale/zh_tw/Breeze-Light) |
+| [Breeze-Dark](https://github.com/samwhelp/kde-neon-adjustment/tree/main/prototype/main/kde-config/locale/en_us/Breeze-Dark) | [Breeze-Dark](https://github.com/samwhelp/kde-neon-adjustment/tree/main/prototype/main/kde-config/locale/zh_tw/Breeze-Dark) |
+| [Breeze-Light](https://github.com/samwhelp/kde-neon-adjustment/tree/main/prototype/main/kde-config/locale/en_us/Breeze-Light) | [Breeze-Light](https://github.com/samwhelp/kde-neon-adjustment/tree/main/prototype/main/kde-config/locale/zh_tw/Breeze-Light) |
 
 
-### V5
+### KDE Plasma 5
 
 | en_us    | zh_tw    |
 | -------- | -------- |
