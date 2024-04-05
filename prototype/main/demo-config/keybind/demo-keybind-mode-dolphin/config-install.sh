@@ -44,12 +44,12 @@ kde_config_install_by_each_file () {
 
 
 	echo
-	echo "mkdir -p ${HOME}/.config/kde"
-	mkdir -p "${HOME}/.config/kde"
+	echo "mkdir -p ${HOME}/.config"
+	mkdir -p "${HOME}/.config"
 
 	echo
-	echo "install -Dm644 ./asset/overlay/etc/skel/.config/kde/kde.conf ${HOME}/.config/kde/kde.conf"
-	install -Dm644 "./asset/overlay/etc/skel/.config/kde/kde.conf" "${HOME}/.config/kde/kde.conf"
+	echo "install -Dm644 ./asset/overlay/etc/skel/.config/kglobalshortcutsrc ${HOME}/.config/kglobalshortcutsrc"
+	install -Dm644 "./asset/overlay/etc/skel/.config/kglobalshortcutsrc" "${HOME}/.config/kglobalshortcutsrc"
 
 
 }
