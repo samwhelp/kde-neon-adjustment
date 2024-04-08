@@ -12,7 +12,7 @@ toolBarFont=Sans Serif,11,-1,5,50,0,0,0,0,0
 Theme=breeze
 
 [KDE]
-LookAndFeelPackage=org.kde.breezedark.desktop
+LookAndFeelPackage=org.kde.breeze.desktop
 ShowDeleteCommand=true
 SingleClick=false
 
