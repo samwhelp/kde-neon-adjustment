@@ -51,7 +51,7 @@ _k_friendly_name=Session Management
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activate Window Demanding Attention
 Decrease Opacity=Meta+;,none,Decrease Opacity of Active Window by 5 %
-Expose=Ctrl+F9\tMeta+Tab,Ctrl+F9,Toggle Present Windows (Current desktop)
+Expose=Meta+Tab\tCtrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
 ExposeAll=Ctrl+F10\tMeta+C\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 Increase Opacity=Meta+',none,Increase Opacity of Active Window by 5 %
